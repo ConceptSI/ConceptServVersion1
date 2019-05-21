@@ -363,7 +363,14 @@
       }
       .banner-div h2 {
         color: white;
+        font-size: 45px;
+        font-weight: 700;
       }
+
+      .banner-div h2 span {
+        color: #cfaf40;
+        font-weight: 800;
+        }
 
       .banner-div h1 span {
       color: #cfaf40;
