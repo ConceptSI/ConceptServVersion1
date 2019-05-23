@@ -1,30 +1,4 @@
-/************* Main Js File ************************
-    Template Name: Taso - Personal Portfolio Template
-    Author: Tanmoy Dhar
-    Version: 1.0
-    Copyright 2018
-****************************************/
 
-
-/*==================================
-
-        Table of Content
-
-        1. Window Load Function
-            a. Preloader Setup
-            b. Portfolio Isotope Setup
-        2. Document Ready Function
-            a. ScrollIt Setup
-            b. Navbar Scrolling Background
-            c. Stats Counter Setup
-            d. Navbar Close On Click Mobile Responsive
-            e. Stellar Setup
-            f. Magnific Popup Setup
-            g. Blog OwlCarousel Setup
-            h. Testimonial OwlCarousel Setup
-            i. Contact Form Setup
-
-==================================*/
 
 // $('html, body').hide()
 /*========Window Load Function========*/
