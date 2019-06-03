@@ -318,8 +318,10 @@
     nav.fixed-top .nav-item .nav-link:after {
     background-color: #cfaf40; 
     }
+
+    
       
-      /*============ 4. Banner Section============*/
+      /*== Banner Section ==*/
 
     h3 {
         color: white;
@@ -400,6 +402,21 @@
       letter-spacing: 0px;
       color: #fff;
       text-align: center;
+      
+      }
+
+      .container-contact h1 {
+      font-size: 55px;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #fff;
+      text-align: center;
+      margin-top: 10%;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20em;
+
       }
 
       .banner-div h2 {
@@ -520,6 +537,19 @@
       text-align: center;
       z-index: 11;
       padding-left: 0px;
+      }
+
+
+      /* -- Services Page --*/
+
+      .service-title {
+          color: black;
+          font-size: 35px;
+          text-align: center;
+      }
+
+      .jumbotron {
+          background-color: white;
       }
 
       /*===Slider Page===*/
