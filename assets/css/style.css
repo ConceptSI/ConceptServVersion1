@@ -301,9 +301,13 @@
     }
 
     nav.fixed-top .logo {
-    color: #000; }
+    color: #000; 
+    }
+
     nav.fixed-top .logo:focus, nav.fixed-top .logo:hover {
-    color: #000; }
+    color: #000; 
+    }
+
     nav.fixed-top .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
     nav.fixed-top .nav-item {
@@ -350,7 +354,7 @@
       }
 
       #aboutBanner {
-        height: 50vh;
+        height: 100vh;
         width: 100%;
         opacity: .9;
         -webkit-background-size: cover;
@@ -445,6 +449,8 @@
       letter-spacing: 6px;
       margin-bottom: 20px;
       }
+
+
       .banner-div-center{
       text-align: center;
       width: 100%;
@@ -676,7 +682,7 @@
             }
 
 
-/* CAROSOEL SECTION */
+/* CAROSOUEL SECTION */
 
 section#testimonial {
     background:#ffffff;
@@ -777,4 +783,40 @@ section#testimonial {
         z-index: 10;
         
         }
+
+    /*Footer Section*/
+
+    .fa {
+      padding: 2%;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    /* Twitter */
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    /* linkedin */
+    .fa-linkedin {
+      background: #0077B5;
+      color: white;
+    }
 
