@@ -400,6 +400,20 @@
       transform: translateY(-50%); 
       }
 
+      .banner-div-about h2 {
+      font-size: 40px;
+      text-align: center;
+      margin: auto;
+      top: 50%;
+      position: absolute;
+      color: #fff;
+      z-index: 11;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); 
+
+      }
+
       .banner-div h1 {
       font-size: 55px;
       font-weight: 700;
