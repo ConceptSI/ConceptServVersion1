@@ -397,6 +397,8 @@
 
       }
 
+      
+
       .banner:after {
       content: " ";
       position: absolute;
@@ -490,8 +492,12 @@
       .banner-div-center{
       text-align: center;
       width: 100%;
-      left: 0px;
+      left
+      : 0px;
       }
+
+      
+
       .cd-headline {
       font-size: 3rem;
       line-height: 1.2; }
