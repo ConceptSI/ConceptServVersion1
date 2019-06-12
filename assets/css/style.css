@@ -222,15 +222,17 @@
     nav.navbar .navbar-toggler {
     border: 0; 
     }
-    nav.navbar .navbar-toggler .navbar-toggler-icon {
+
+    /*nav.navbar .navbar-toggler .navbar-toggler-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
-     }
+     } */
+
     nav.navbar .nav-item {
     font-size: 13px;
     font-weight: 400;
-    padding-right: 13px;
-    padding-left: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
     color: #fff;
     text-transform: uppercase; 
     }
@@ -323,9 +325,29 @@
     background-color: #cfaf40; 
     }
 
+    .navbar-brand {
+      height: 40%;
+      width: 40%;
+      margin-right: 25px;
+    }
+
     
       
       /*== Banner Section ==*/
+  
+      .parallax { 
+        /* The image used */
+        /*background-image: url("img_parallax.jpg");*/
+      
+        /* Set a specific height */
+        height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
     h3 {
         color: white;
@@ -334,11 +356,6 @@
     }
       .services {
         padding: 100px;
-      }
-
-      .navbar-brand {
-        height: 40%;
-        width: 40%;
       }
 
 
@@ -561,6 +578,31 @@
 
 
       /* -- Services Page --*/
+
+      .img-container{
+        position:relative;
+        display:inline-block;
+      }
+      .img-container .overlay{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgb(0,170,170);
+        opacity:0;
+        transition:opacity 500ms ease-in-out;
+      }
+      .img-container:hover .overlay{
+        opacity:1;
+      }
+      .overlay span{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color:#fff;
+      }
 
       .service-title {
           color: black;
@@ -799,6 +841,13 @@ section#testimonial {
         }
 
     /*Footer Section*/
+
+    .thumbnail {
+      width: 85%;
+      margin: auto;
+      padding: 10px;
+      display: block;
+    }
 
     .fa {
       padding: 2%;
