@@ -600,7 +600,7 @@
         left:0;
         width:100%;
         height:100%;
-        background:rgb(0,170,170);
+        background:#cfaf40(0,170,170);
         opacity:0;
         transition:opacity 500ms ease-in-out;
       }
