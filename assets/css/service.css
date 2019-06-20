@@ -1,0 +1,124 @@
+
+.wrapperService {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.right {
+    float: right !important;
+}
+/* Image zoom on hover + Overlay colour */
+.mother {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.baby {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.bg-one {
+    background-image: url(../images/services/Image.jpg);
+}
+
+.bg-two {
+    background-image: url(../images/services/chairs.jpg);
+}
+
+.bg-three {
+    background-image: url(../images/services/beer-systems-5.jpg);
+}
+
+.bg-four {
+    background-image: url(../images/services/signs.jpg);
+}
+
+.bg-five {
+    background-image: url(../images/services/fab1.jpg);
+}
+
+.bg-six {
+    background-image: url(../images/services/Millwork2.jpg);
+}
+
+.bg-seven{
+    background-image: url(../images/services/BallyWalk-In.png);
+}
+
+.bg-eight {
+    background-image: url(../images/services/hood.jpg);
+}
+
+
+a {
+    display: none;
+    font-size: 25px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.mother:hover .baby, .mother:focus .baby {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.mother:hover .baby:before, .mother:focus .baby:before {
+    display: block;
+}
+
+.mother:hover a, .mother:focus a {
+    display: block;
+}
+
+.baby:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .mother {width: 100%; margin: 20px 0px}
+        .wrapperService {padding: 20px 20px;}
+}
+
+
+
+
+.hello {display: none}

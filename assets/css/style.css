@@ -615,7 +615,7 @@
 
       /* -- Services Page --*/
 
-      .img-container{
+      /*.img-container{
         position:relative;
         display:inline-block;
       }
@@ -638,13 +638,15 @@
         left:50%;
         transform:translate(-50%,-50%);
         color:#fff;
-      }
+      }*/
 
       .service-title {
           color: black;
           font-size: 35px;
           text-align: center;
-      }
+      } 
+
+      
 
       .jumbotron {
           background-color: white;
