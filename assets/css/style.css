@@ -17,6 +17,7 @@
     h5,
     h6 {
     color: #222; 
+    font-family: 'Montserrat', sans-serif; 
     }
 
     img {
@@ -424,6 +425,10 @@
         overflow: hidden;
         
 
+      }
+
+      .banner-div-contact h1{
+        font-family: 'Montserrat', sans-serif; 
       }
 
       
