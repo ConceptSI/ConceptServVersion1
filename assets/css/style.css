@@ -427,6 +427,17 @@
 
       }
 
+      #contactBanner {
+        height: 50vh;
+        width: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+
+      }
+
       .banner-div-contact h1{
         font-family: 'Montserrat', sans-serif; 
       }
