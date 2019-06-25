@@ -68,7 +68,7 @@
 }
 
 
-a {
+.wrapper-services a {
     display: none;
     font-size: 25px;
     color: #ffffff !important;
@@ -83,7 +83,7 @@ a {
     height: 50px;
     cursor: pointer;
     /*text-decoration: none;*/
-}
+} 
 
 .mother:hover .baby, .mother:focus .baby {
     -ms-transform: scale(1.2);

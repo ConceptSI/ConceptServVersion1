@@ -213,14 +213,16 @@
     -o-transition: all .5s ease;
     transition: all .5s ease; 
     }
-    nav.navbar .logo {
+
+    /*nav.navbar .logo {
     font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
     font-family: 'Montserrat', sans-serif; 
-    }
+    }*/
+
     nav.navbar .navbar-toggler {
     border: 0; 
     }
