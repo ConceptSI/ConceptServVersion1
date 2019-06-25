@@ -44,7 +44,7 @@
     p {
     font-size: 16px;
     line-height: 1.65;
-    font-family: "Open Sans", sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
     }
 
     span {
@@ -224,34 +224,39 @@
     }*/
 
     nav.navbar .navbar-toggler {
-    border: 0; 
+    border: 1px; 
     }
 
     nav.navbar .navbar-toggler .navbar-toggler-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
-     }
+    }
 
     nav.navbar .nav-item {
     font-size: 13px;
     font-weight: 400;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
     color: #fff;
     text-transform: uppercase; 
     }
+
     nav.navbar .nav-item:first-child {
-    padding-left: 0; 
+      padding-left: 0px; 
     }
+
     nav.navbar .nav-item:last-child {
-    padding-right: 0; 
+    padding-right: 5px; 
     }
+
     nav.navbar .nav-item .nav-link {
     color: #fff;
     position: relative;
     text-decoration: none;
     padding: 0; 
     }
+
     nav.navbar .nav-item .nav-link:before {
     content: "";
     position: absolute;
@@ -268,6 +273,7 @@
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s; 
     }
+
     nav.navbar .nav-item .nav-link:after {
     content: "";
     position: absolute;
@@ -284,18 +290,20 @@
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s; 
     }
-    nav.navbar .nav-item .nav-link.active:before {
+
+    /*nav.navbar .nav-item .nav-link.active:before {
     visibility: visible;
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
     }
+
     nav.navbar .nav-item .nav-link.active:after {
     visibility: visible;
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
-    }
+    }*/
 
     nav.fixed-top {
     position: fixed;
@@ -316,15 +324,19 @@
 
     nav.fixed-top .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
     nav.fixed-top .nav-item {
     color: #000; 
     }
+
     nav.fixed-top .nav-item .nav-link {
     color: #000 !important; 
     }
+
     nav.fixed-top .nav-item .nav-link:before {
     background-color: #cfaf40; 
     }
+
     nav.fixed-top .nav-item .nav-link:after {
     background-color: #cfaf40; 
     }
@@ -332,7 +344,7 @@
     .navbar-brand {
       height: 40%;
       width: 40%;
-      margin-right: 25px;
+      padding-right: 75px;
     }
 
 
@@ -342,19 +354,19 @@
       
       /*== Banner Section ==*/
   
-      .parallax { 
+      /*.parallax { 
         /* The image used */
         /*background-image: url("img_parallax.jpg");*/
       
-        /* Set a specific height */
+        /* Set a specific height 
         height: 500px; 
       
-        /* Create the parallax scrolling effect */
+        /* Create the parallax scrolling effect 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-      }
+      }*/
 
     h3 {
         color: white;
@@ -651,7 +663,7 @@
       
 
       .jumbotron {
-          background-color: white;
+        background:transparent linear-gradient(to right bottom, #cfaf40, #80b198);
       }
 
       /*===Slider Page===*/
@@ -694,15 +706,17 @@
             z-index: 1;
             transition: .3s;
             }
-            .about-img img:hover{
+            .about-img img {
               box-shadow: 0px 20px 20px 0px rgba(59,62,72,0.2);
             }
+
             .about-title h2 {
                 margin-bottom: 15px;
               }
               .about-title {
               margin-bottom: 20px;
               }  
+              
             .about .about-div .about-title h2 {
             font-size: 32px;
             font-weight: 600;

@@ -95,6 +95,7 @@ $(function() {
 
 
 
+
      /*========Magnific Popup Setup========*/
      $('.portfolio .port-link').magnificPopup({
         delegate: 'a',
