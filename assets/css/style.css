@@ -446,6 +446,18 @@
 
       }
 
+      #containerSlider {
+        height: 50vh;
+        width: 100%;
+        background-position: center; 
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+
+      }
+
       .banner-div-contact h1{
         font-family: 'Handlee', cursive;
       }
@@ -657,6 +669,8 @@
       padding-left: 0px;
       }
 
+      
+
       /* --- About Page--*/
 
       #mission {
@@ -829,17 +843,37 @@
             top: 22px
             }
             table.info-table i:hover {
-            border-color: #fc6f5c;
-            color: #fc6f5c;
+            border-color: #cfaf40;
+            color: #cfaf40;
             }
 
 
 /* CAROSOUEL SECTION */
 
-section#testimonial {
-    background:#ffffff;
+
+
+      .counter-area {
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden; }
+
+        .counter-area:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background:transparent linear-gradient(to right bottom, #159957, #155799);
+        z-index: 0;
+        opacity: .60; 
+        }
      
-    }
+    
     
    
 
@@ -859,6 +893,7 @@ section#testimonial {
     p.testi-description {
         color: #fff;
         text-align: center;
+        font-size: 30px;
         }
 
         .testimonial-review .pic{
