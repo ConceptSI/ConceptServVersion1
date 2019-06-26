@@ -383,8 +383,9 @@
 
 
       .banner {
-      height: 100vh;
+      height: 70vh;
       width: 100%;
+      background-position: center; 
       -webkit-background-size: cover;
       background-size: cover;
       background-repeat: no-repeat;
@@ -396,6 +397,7 @@
       #aboutBanner {
         height: 70vh;
         width: 100%;
+        background-position: center; 
         opacity: .9;
         -webkit-background-size: cover;
         background-size: cover;
@@ -409,6 +411,7 @@
       #customerBanner {
         height: 70vh;
         width: 100%;
+        background-position: center; 
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
@@ -421,6 +424,7 @@
       #serviceBanner {
         height: 70vh;
         width: 100%;
+        background-position: center; 
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
@@ -433,6 +437,7 @@
       #contactBanner {
         height: 50vh;
         width: 100%;
+        background-position: center; 
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
@@ -504,7 +509,7 @@
       .banner-div h1 {
       padding-right: 20px;
       margin-right: 70px;
-      margin-top: 25px;
+      margin-top: 0px;
       font-size: 55px;
       font-weight: 700;
       letter-spacing: 0px;
@@ -558,8 +563,7 @@
       .banner-div-center{
       text-align: center;
       width: 100%;
-      left
-      : 0px;
+      left: 0px;
       }
 
       
@@ -940,15 +944,15 @@ section#testimonial {
 
     .thumbnail img {
       width: 350px;
-      height: 200px;
+      height: 175px;
       margin: auto;
       padding: 10px;
       display: block;
     }
 
     .thumbnail2 img {
-      width: 400px;
-      height: 200px;
+      width: 375px;
+      height: 175px;
       margin: auto;
       padding: 10px;
       display: block;
