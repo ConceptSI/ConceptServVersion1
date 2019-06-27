@@ -467,9 +467,17 @@
 
       }
 
+      /*@media screen and (max-width: 640px) {
+        .banner-div h1 {
+        font-size: 35px;
+        text-align: center;
+        }*/
+
       .banner-div-contact h1{
         font-family: 'Handlee', cursive;
       }
+
+      
 
       .card-text {
         text-align: center;
@@ -538,6 +546,8 @@
       text-align: center;
       
       }
+
+      
 
       .container-contact h1 {
       font-size: 55px;
