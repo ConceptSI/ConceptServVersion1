@@ -54,7 +54,9 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/keck.jpg);
+	background-image: url(../images/about/Hal2.jpg);
+	background-repeat: no-repeat;
+  	background-size: 230px 230px;
 	
     
 }
